@@ -37,7 +37,6 @@ namespace QRCodeApp.Droid
                         {
                             if (ActivityCompat.CheckSelfPermission(ApplicationContext, Manifest.Permission.Camera) != Android.Content.PM.Permission.Granted)
                             {
-                                //Request permission
                                 ActivityCompat.RequestPermissions(this, new string[]
                                 {
                    Manifest.Permission.Camera
